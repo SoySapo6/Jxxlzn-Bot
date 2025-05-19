@@ -1,9 +1,7 @@
 
-<h1 align="center">⭒☆ KakarottoBot Ultra Instinct ☆⭒</h1>
+<h1 align="center">⊹˚₊ Jxxlzn-Bot ₊˚⊹</h1>
 
-<p align="center">
-  <img src="https://files.catbox.moe/8iqvp8.gif" height="200">
-</p>
+<img src="https://media1.tenor.com/m/Wakk9-QWiLIAAAAd/dokkan-battle-top.gif">
 
 ### **`⚡ Información importante`**
 
@@ -11,37 +9,37 @@
 <summary><b>📱 Acerca del Bot</b></summary>
 
 * Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. WhatsApp` es una marca registrada de `WhatsApp LLC`.
-* KakarottoBot es un **desarrollo independiente**, con la fuerza de un Saiyajin puro, y no tiene conexión oficial con la compañía.
-* Este bot fue creado y potenciado con el ki del desarrollador.
+* Jxxlzn-Bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
+* Este bot fue creado de forma individual y profesional.
 </details>
 
 <details>
 <summary><b>✨ Características</b></summary>
 
-> KakarottoBot está siempre en modo entrenamiento. Reporta errores para seguir mejorando como Goku.
+> Jxxlzn-Bot está en constante evolución. Si encuentras algún error, repórtalo.
 
-- [x] Interacción Saiyajin por voz y texto
-- [x] Personalización Z-Fighter para grupos
-- [x] Modo Ultra Protección: antidelete, antilink, antispam
-- [x] Bienvenidas con el espíritu de la Genkidama
-- [x] Juegos Z como tictactoe, trivia y más
-- [x] Chatbot con sabiduría del Maestro Roshi (simsimi)
-- [x] Respuestas automáticas Saiyajin
-- [x] Stickers con Kamehameha: de imágenes, gifs, etc.
-- [x] Modo SubBot (Jadibot) multidispositivo
-- [x] Buscador Dragon Radar (Google)
-- [x] Sistema RPG temático DBZ
-- [x] Menús personalizables con poder
-- [x] Descarga de música y videos como el grito de un Super Saiyajin
-- [ ] ¡Más poderes desbloqueables pronto!
+- [x] Interacción con voz y texto
+- [x] Configuración personalizada para grupos
+- [x] Protección avanzada: antidelete, antilink, antispam, etc.
+- [x] Mensajes de bienvenida temáticos
+- [x] Mini-juegos interactivos: tictactoe, matemáticas, trivia
+- [x] Chatbot con personalidad (simsimi)
+- [x] Respuestas automáticas personalizables
+- [x] Creación de stickers de image/video/gif/url
+- [x] SubBot (Jadibot) multidispositivo
+- [x] Buscador Google optimizado
+- [x] Sistema RPG
+- [x] Personalización completa de menús e interfaces
+- [x] Descarga de música y video de múltiples plataformas
+- [ ] Más funciones próximamente...
+
 </details>
 
 ---
 
-# Instalación por Render ⭒☆
-
-> Repositorio:
-https://github.com/SoySapo6/KakarottoBot-Ultra.git
+# Instalación por Render ₊˚⊹
+> Repositorio que debes poner:
+https://github.com/SoySapo6/Jxxlzn-Bot.git
 
 <p align="center">
   <img src="https://files.catbox.moe/xnojvs.png" width="500">
@@ -60,16 +58,17 @@ Start Command & Run Command:
 node server-render.js
 ```
 
-> Ve a la URL que te dio Render y añade:
+> Luego ve a la URL que te dio Render y añadele:
 ```
 /auth/s
 ```
-Ejemplo:
+ejemplo:
 ```
 https://miweb.onrender.com/auth/s
 ```
 
-> Luego reemplaza la "s" por tu número:
+luego reemplaza "s" por tu número de celular.
+Ejemplo:
 ```
 https://miweb.onrender.com/auth/51921826391
 ```
@@ -78,37 +77,91 @@ https://miweb.onrender.com/auth/51921826391
 
 ---
 
-# Instalación por Termux (Saiyajin Style)
+### Instalación por SYAHosting 🌐
 
-<a href="https://www.mediafire.com/file/llugt4zgj7g3n3u/com.termux_1020.apk/file">
-<img src="https://files.catbox.moe/ayy4am.gif" height="125px"></a>
+```
+git clone https://github.com/SoySapo6/Jxxlzn-Bot && cd Jxxlzn-Bot && npm install yarn -g && npx yarn install && npm install && npm update && mkdir temp && node --max-old-space-size=146 index.js
+```
+
+---
+
+### **`📲 Instalación por Termux`**
 
 <details>
-<summary><b>📝 Comandos de instalación</b></summary>
+<summary><b>📝 Click para ver los Comandos</b></summary>
 
+### **💮 Instalación manual por Termux**
 ```bash
 termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/SoySapo6/KakarottoBot-Ultra && cd KakarottoBot-Ultra
-yarn install && npm install && npm update
+git clone https://github.com/SoySapo6/Jxxlzn-Bot && cd Jxxlzn-Bot
+yarn install
+npm install
+npm update
 mkdir temp && npm start
 ```
 
-> ¿El bot se detuvo? No te rindas como Goku:
+> Si aparece (Y/I/N/O/D/Z) [default=N] usa la letra "y" + "ENTER"
+
+### **🔮 En caso de detenerse en Termux**
 ```bash
-cd KakarottoBot-Ultra && npm start
+cd Jxxlzn-Bot
+npm start
+```
+
+### **⭐ Volverte owner del Bot**
+```bash
+cd Jxxlzn-Bot && nano settings.js
 ```
 
 </details>
 
 ---
 
-### **`🌟 Desarrollador`**
-<a href="https://github.com/SoySapo6">
-<img src="https://github.com/SoySapo6.png" width="130" height="130" alt="SoySapo6"/></a>
+### **`🌟 Enlaces útiles`**
+
+<details>
+<summary><b>🔮 Enlaces Oficiales</b></summary>
+
+* Canal Oficial [`¡Click aquí!`](https://whatsapp.com/channel/0029Vb5SVuN7j6g43YZTR20b)
+* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/EprzCjr7XFyAIFr9OfBh2o)
+* Comunidad Oficial [`¡Click aquí!`](https://chat.whatsapp.com/KqkJwla1aq1LgaPiuFFtEY)
+</details>
+
+<details>
+<summary><b>📞 Contacto</b></summary>
+
+* WhatsApp: [`Aquí`](https://Wa.me/51921826291)
+
+</details>
+
+---
+
+# 🌃 NightAPI 🌌
 
 <p align="center">
-  <img src="https://files.catbox.moe/csibjp.gif" width="500">
-  <br>
-  <i>Desarrollado con la energía de un Super Saiyajin</i>
+  <img src="https://files.catbox.moe/0wjz52.png" width="500">
 </p>
+
+<details>
+<summary><b>🔮 Enlaces Oficiales</b></summary>
+
+* Página Web [`¡Click aquí!`](https://nightapioficial.onrender.com/)
+
+</details>
+
+<details>
+<summary><b>📞 Contacto</b></summary>
+
+* WhatsApp: [`Aquí`](https://Wa.me/51921826291)
+
+</details>
+
+<details>
+<summary><b>💻 Funciones</b></summary>
+
+<p align="center">
+  <img src="https://files.catbox.moe/mtqu28.png" width="500">
+</p>
+
+</details>
