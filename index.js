@@ -41,15 +41,15 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 //let require = createRequire(megu)
 let { say } = cfonts
 
-console.log(chalk.bold.redBright(`\nHanako: Hola ^^, Esperame que ando haciendo algunas cositas jeje\n`))
+console.log(chalk.bold.redBright(`\nGoku: Hola Humano, Esperame que ando haciendo algunas cosas\n`))
 
-say('MaycolAIUltraMD', {
+say('Jxxlzn-Bot', {
 font: 'block',
 align: 'center',
 colors: ['magentaBright']
 })
 
-say(`Hecho por SoyMaycol`, {
+say(`Hecho por 𝕯𝖗𝖆𝖐𝖎𝖙𝖔`, {
 font: 'console',
 align: 'center',
 colors: ['blueBright']
