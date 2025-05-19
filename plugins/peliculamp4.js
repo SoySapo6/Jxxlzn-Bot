@@ -2,38 +2,40 @@ import fetch from 'node-fetch';
 
 const handler = async (m, { text, conn }) => {
   if (!text) return conn.reply(m.chat, `
-✘ 「 𝑻𝑰́𝑻𝑼𝑳𝑶 𝑭𝑨𝑳𝑻𝑨𝑵𝑻𝑬 」
-➤ Usa: *peliculamp4 <título>*`, m);
+✘ 「 ¡FALTA EL TÍTULO, GUERRERO! 」
+Usa el comando así:
+➤ *peliculamp4 <nombre de la película>*`, m);
 
   const apiUrl = `https://nightapioficial.onrender.com/api/movies/info?title=${encodeURIComponent(text)}`;
 
   await conn.reply(m.chat, `
-╭──〔 ✦ 𝑯𝑨𝑵𝑨𝑲𝑶-𝑲𝑼𝑵 𝑬𝑺𝑻𝑨́ 𝑬𝑿𝑷𝑳𝑶𝑹𝑨𝑵𝑫𝑶... ✦ 〕──╮
-┃⌛ Buscando entre los archivos malditos de NightAPI...
-┃✨ Encontrando la esencia de *${text}*...
-╰──────────────────────────────╯`, m);
+╭━━━〔 ✦ BÚSQUEDA Z ACTIVADA ✦ 〕━━━╮
+┃ 🔎 Buscando en la Cámara del Tiempo...
+┃ 💫 Rastreo de energía de: *${text}*
+┃ 🛰️ Contactando a NightAPI...
+╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯`, m);
 
   try {
     const res = await fetch(apiUrl);
     const json = await res.json();
 
     if (!Array.isArray(json) || !json[0]?.enlace) {
-      throw new Error('Película no encontrada.');
+      throw new Error('Película no encontrada en este universo.');
     }
 
     const movie = json[0];
     const videoUrl = movie.enlace;
 
     const head = await fetch(videoUrl, { method: 'HEAD' });
-    if (!head.ok) throw new Error('Enlace inválido o caído.');
+    if (!head.ok) throw new Error('El enlace está roto o fue destruido por Freezer.');
 
-    const filename = `Hanako-${movie.nombre.slice(0, 30)}.mp4`;
+    const filename = `Kakaroto-${movie.nombre.slice(0, 30)}.mp4`;
     const caption = `
-╭─〔 ✦ 𝑷𝑬𝑳𝑰́𝑪𝑼𝑳𝑨 ✦ 〕─╮
-┃🎬 ${movie.nombre}
-┃⭐ ${movie.estrellas} / 10
-┃📆 Año: ${movie.año}
-╰────────────────╯`.trim();
+╭─────〔 ✦ PELÍCULA Z ✦ 〕─────╮
+┃ 🎬 Título: ${movie.nombre}
+┃ ⭐ Valoración: ${movie.estrellas} / 10
+┃ 📆 Año: ${movie.año}
+╰────────────────────────────╯`.trim();
 
     await conn.sendFile(
       m.chat,
@@ -45,13 +47,14 @@ const handler = async (m, { text, conn }) => {
       { mimetype: 'video/mp4' }
     );
   } catch (e) {
-    console.error('[peliculamp4 error]', e);
+    console.error('[Error peliculamp4]', e);
     conn.reply(m.chat, `
-✘ 「 ERROR AL ENVIAR 」
-➤ No pude enviar el video.
-➤ Puedes abrirlo tú desde aquí:
-${e?.message?.startsWith('http') ? e.message : '⛓️ ' + (json?.[0]?.enlace || 'No disponible')}
-`, m);
+✘ 「 ¡ALERTA, KAIOSAMA! 」
+Hubo un problema al traer el video.
+
+${e?.message?.startsWith('http') 
+  ? '➤ Intenta abrirlo manualmente:\n' + e.message
+  : '⛓️ Enlace alternativo:\n' + (json?.[0]?.enlace || 'No disponible en este planeta.')}`, m);
   }
 };
 
