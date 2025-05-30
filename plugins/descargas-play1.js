@@ -91,7 +91,7 @@ handler.command = handler.help = ['playaudio', 'mp3', 'playvideo', 'mp4']
 handler.tags = ['descargas']
 handler.group = true
 
-export default handler
+// export default handler
 
 function formatViews(views) {
   if (views === undefined) return "No disponible"
