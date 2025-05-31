@@ -26,6 +26,7 @@ let handler = async (m, { conn }) => {
     const userId = m.sender;
     const now = Date.now();
 
+    // Cooldown
     if (cooldowns[userId] && now < cooldowns[userId]) {
         const remainingTime = Math.ceil((cooldowns[userId] - now) / 1000);
         const minutes = Math.floor(remainingTime / 60);
@@ -33,10 +34,14 @@ let handler = async (m, { conn }) => {
         return await conn.reply(m.chat, `《✧》Debes esperar *${minutes} minutos y ${seconds} segundos* para usar *#c* de nuevo.`, m);
     }
 
+    // Verifica si estás citando algo del bot
     if (m.quoted && m.quoted.sender === conn.user.jid) {
         try {
             const characters = await loadCharacters();
-        const characterIdMatch = m.quoted.text.match(/✦ ID: \*(.+?)\*/);
+
+            // 🧠 Usa text o caption (para imágenes con descripción)
+            const textToSearch = m.quoted.text || m.quoted.caption || '';
+            const characterIdMatch = textToSearch.match(/✦ ID: \*(.+?)\*/);
 
             if (!characterIdMatch) {
                 await conn.reply(m.chat, '《✧》No se pudo encontrar el ID del personaje en el mensaje citado.', m);
@@ -52,22 +57,26 @@ let handler = async (m, { conn }) => {
             }
 
             if (character.user && character.user !== userId) {
-                await conn.reply(m.chat, `《✧》El personaje ya ha sido reclamado por @${character.user.split('@')[0]}, inténtalo a la próxima :v.`, m, { mentions: [character.user] });
+                await conn.reply(
+                    m.chat,
+                    `《✧》El personaje ya ha sido reclamado por @${character.user.split('@')[0]}, inténtalo a la próxima :v.`,
+                    m,
+                    { mentions: [character.user] }
+                );
                 return;
             }
 
+            // Reclamar personaje
             character.user = userId;
             character.status = "Reclamado";
 
             await saveCharacters(characters);
 
             await conn.reply(m.chat, `✦ Has reclamado a *${character.name}* con éxito.`, m);
-            cooldowns[userId] = now + 30 * 60 * 1000;
-
+            cooldowns[userId] = now + 30 * 60 * 1000; // 30 minutos de cooldown
         } catch (error) {
             await conn.reply(m.chat, `✘ Error al reclamar el personaje: ${error.message}`, m);
         }
-
     } else {
         await conn.reply(m.chat, '《✧》Debes citar un personaje válido para reclamar.', m);
     }
