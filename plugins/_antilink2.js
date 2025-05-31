@@ -1,4 +1,4 @@
-// Esta versión actualizada detecta enlaces aunque no tengan presente el protocolo https
+export default handler
 
 const linkRegex = (text) => {
 const urlRegex = /(?:[a-zA-Z]+:\/\/[^\s]+)|(?:\b(www\.|ftp\.)[^\s]+\.[a-z]{2,}\/?[^\s]*)|(?:\b[a-z0-9.-]+\.[a-z]{2,}(?:\/[^\s]*)?)/gi
@@ -44,4 +44,3 @@ if (remove[0].status === '404') return
 }}
 return !0
 }
-export default handler
