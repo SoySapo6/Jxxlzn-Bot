@@ -49,7 +49,7 @@ let handler = async (m, { conn, args }) => {
 ⚔️ Guerreros conectados: ${totalreg}
 🗨️ Canal: https://whatsapp.com/channel/0029VbACFO6KrWR5qXyPoo0d
 
-> Desarrollado con fuerza y orgullo Saiyajin por: *𝕵𝖝𝖝𝖑𝖟𝖓 (𝕯𝖗𝖆𝖐𝖎𝖙𝖔)*
+> Desarrollado por: *☛𝕵𝖝𝖝𝖑𝖟𝖓 (𝕯𝖗𝖆𝖐𝖎𝖙𝖔)☚*
 
 ≪──── ⋆☁️⚡☁️⋆ ────≫
 `.trim()
