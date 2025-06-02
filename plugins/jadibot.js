@@ -76,7 +76,7 @@ const message = users.map((v, index) =>
 🔸 𝕊𝕦𝕓-𝔹𝕠𝕥 #${index + 1}
 ┣━ ☎️: wa.me/${v.user.jid.replace(/[^0-9]/g, '')}
 ┣━ 👤 Usuario: ${v.user.name || 'Sub-Bot'}
-┣━ 🇯🇵 Creador: Jxxlzn (Drakito)
+┣━ 🇯🇵 Creador: Jxxlzn
 ┗━ ⏰ Online: ${v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : 'Desconocido'}`
 ).join('\n┗━━━━•(=^●ω●^=)•━━━━┛\n\n');
   
