@@ -69,7 +69,7 @@ ${cmds.map(cmd => `│ ➯ ${cmd}`).join('\n')}
     contextInfo: {
       externalAdReply: {
         title: botname,
-        body: "Ven y lucha conmigo MARICA",
+        body: "Su deseo es mi orden, mi señor."",
         thumbnailUrl: 'https://qu.ax/meebQ.jpg',
         sourceUrl: redes,
         mediaType: 1,
