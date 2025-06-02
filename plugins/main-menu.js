@@ -95,7 +95,7 @@ ${cmds.map(cmd => `│ ➯ ${cmd}`).join('\n')}
       forwardingScore: 999,
       externalAdReply: {
         title: botname,
-        body: ""¡Mi nombre estará inscrito en la lista de los mejores ganadores!"",
+        body: "¡Mi nombre estará inscrito en la lista de los mejores ganadores!",
         thumbnailUrl: 'https://qu.ax/QAsxe.jpg',
         sourceUrl: redes,
         mediaType: 1,
