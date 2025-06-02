@@ -96,7 +96,7 @@ ${cmds.map(cmd => `│ ➯ ${cmd}`).join('\n')}
       externalAdReply: {
         title: botname,
         body: "Acaso quieres pelea idiota?",
-        thumbnailUrl: 'https://qu.ax/QAsxe.jpg'
+        thumbnailUrl: 'https://qu.ax/QAsxe.jpg',
         sourceUrl: redes,
         mediaType: 1,
         showAdAttribution: true,
