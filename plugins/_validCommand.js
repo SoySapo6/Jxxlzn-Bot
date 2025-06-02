@@ -23,13 +23,13 @@ export async function before(m) {
     const { bestMatch } = stringSimilarity.findBestMatch(command, allCommands)
     const suggestion = bestMatch.rating > 0.3 ? `¿Quisiste decir *${usedPrefix}${bestMatch.target}*?` : ''
 
-    const mensaje = `╭──❖『 ✦ CENTRO DE ENTRENAMIENTO Z ✦ 』\n│\n├─ El comando *${usedPrefix}${command}* no fue reconocido por el radar del dragón.\n│\n├─ ${suggestion || 'Consulta todos los poderes disponibles con:'}\n│   ⇝ *${usedPrefix}help*\n╰───────────────────────────────╯`
+    const mensaje = `╭──❖『 ✦ CENTRO DE ENTRENAMIENTO Z ✦ 』\n│\n├─ El comando *${usedPrefix}${command}* no fue reconocido o no existe.\n│\n├─ ${suggestion || 'Consulta todos los comandos disponibles con:'}\n│   ⇝ *${usedPrefix}help*\n╰───────────────────────────────╯`
     await m.reply(mensaje)
     return
   }
 
   if (chat?.isBanned) {
-    const avisoDesactivado = `╭──❖『 ✦ ENERGÍA SELLADA ✦ 』\n│\n├─ Este grupo ha sido encerrado por los Kaioshin.\n│   El poder del bot fue sellado aquí.\n│\n├─ Para liberar su energía usa:\n│   ⇝ *${usedPrefix}bot on*\n╰────────────────────────────╯`
+    const avisoDesactivado = `╭──❖『 ✦ ENERGÍA SELLADA ✦ 』\n│\n├─ Este grupo ha sido encerrado por Kuroshitsuji.\n│   El poder del bot fue sellado aquí.\n│\n├─ Para liberar su energía usa:\n│   ⇝ *${usedPrefix}bot on*\n╰────────────────────────────╯`
     await m.reply(avisoDesactivado)
     return
   }
