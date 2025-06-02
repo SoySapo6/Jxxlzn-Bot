@@ -70,7 +70,7 @@ ${cmds.map(cmd => `│ ➯ ${cmd}`).join('\n')}
       externalAdReply: {
         title: botname,
         body: "Ven y lucha conmigo MARICA",
-        thumbnailUrl: 'https://files.catbox.moe/wd2yh6.jpg',
+        thumbnailUrl: 'https://qu.ax/meebQ.jpg',
         sourceUrl: redes,
         mediaType: 1,
         showAdAttribution: true,
