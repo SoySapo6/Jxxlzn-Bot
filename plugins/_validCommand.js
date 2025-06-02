@@ -23,7 +23,7 @@ export async function before(m) {
     const { bestMatch } = stringSimilarity.findBestMatch(command, allCommands)
     const suggestion = bestMatch.rating > 0.3 ? `¿Quisiste decir *${usedPrefix}${bestMatch.target}*?` : ''
 
-    const mensaje = `╭──❖『 ✦ CENTRO DE ENTRENAMIENTO Z ✦ 』\n│\n├─ El comando *${usedPrefix}${command}* no fue reconocido o no existe.\n│\n├─ ${suggestion || 'Consulta todos los comandos disponibles con:'}\n│   ⇝ *${usedPrefix}help*\n╰───────────────────────────────╯`
+    const mensaje = `╭──❖『 ✦ CENTRO DE COMANDOS VALIDOS ✦ 』\n│\n├─ El comando *${usedPrefix}${command}* no fue reconocido o no existe.\n│\n├─ ${suggestion || 'Consulta todos los comandos disponibles con:'}\n│   ⇝ *${usedPrefix}help*\n╰───────────────────────────────╯`
     await m.reply(mensaje)
     return
   }
