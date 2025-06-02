@@ -36,8 +36,8 @@ global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '★𓊈𒆜ᴊxxʟᴢɴ-ʙᴏᴛ ᴍᴅ𒆜𓊉★'
-global.botname = '𝕁𝕩𝕩𝕝𝕫𝕟-𝔹𝕠𝕥'
+global.packname = '★𓊈𒆜𝖐𝖚𝖗𝖔𝖘𝖍𝖎𝖙𝖘𝖚𝖏𝖎-𝕭𝖔𝖙𒆜𓊉★'
+global.botname = '𝖐𝖚𝖗𝖔𝖘𝖍𝖎𝖙𝖘𝖚𝖏𝖎-𝕭𝖔𝖙.'
 global.wm = '𝙹𝚡𝚡𝚕𝚣𝚗-𝙱𝚘𝚝'
 global.author = '𝐉𝐱𝐱𝐥𝐳𝐧-𝐁𝐨𝐭'
 global.dev = '𝐇𝐞𝐜𝐡𝐨 𝐩𝐨𝐫 𝕯𝖗𝖆𝖐𝖎𝖙𝖔'
