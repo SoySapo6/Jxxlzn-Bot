@@ -47,7 +47,7 @@ let handler = async (m, { conn, args }) => {
 🧬 Guerrero: @${userId.split('@')[0]}
 ⏰ Tiempo de entrenamiento: ${uptime}
 ⚔️ Guerreros conectados: ${totalreg}
-🗨️ Canal: https://whatsapp.com/channel/0029VbACFO6KrWR5qXyPoo0d
+🗨️ Canal Official: https://whatsapp.com/channel/0029VbACFO6KrWR5qXyPoo0d
 
 > Desarrollado por: *𝕵𝖝𝖝𝖑𝖟𝖓 (𝕯𝖗𝖆𝖐𝖎𝖙𝖔)*
 
