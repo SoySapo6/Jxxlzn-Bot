@@ -37,7 +37,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
       externalAdReply: {
         title: '¡Goku te ha invocado con su Ki!',
         body: `𝕁𝕩𝕩𝕝𝕫𝕟-𝔹𝕠𝕥 • 𝐇𝐞𝐜𝐡𝐨 𝐩𝐨𝐫 𝕯𝖗𝖆𝖐𝖎𝖙𝖔`,
-        thumbnailUrl: 'https://files.catbox.moe/mgusxj.webp', // Puedes cambiar la imagen por una de Goku
+        thumbnailUrl: 'https://qu.ax/Tqmdw.jpg', // Puedes cambiar la imagen por una de Goku
         mediaType: 1,
         renderLargerThumbnail: true,
         showAdAttribution: true,
