@@ -18,9 +18,9 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
   const creador = '𝕯𝖗𝖆𝖐𝖎𝖙𝖔';
   const mensaje = args.join` ` || '¡Reúnanse, guerreros Z!';
 
-  const intro = `*『⚡』Mensaje de Goku:* ${mensaje}`;
+  const intro = `*『⚡』Mensaje de Kurochitsuji:* ${mensaje}`;
   let texto = `╭─────[ *🔥 INVOCACIÓN DE KI 🔥* ]─────⬣\n`;
-  texto += `│  *Goku ha elevado su Ki al máximo...*\n`;
+  texto += `│  *Kurochitsuji ha elevado su Ki al máximo...*\n`;
   texto += `│  *Invocando a ${participants.length} guerreros del grupo*\n│\n`;
   texto += `│  ${intro}\n│\n`;
 
@@ -35,7 +35,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
     mentions: participants.map(p => p.id),
     contextInfo: {
       externalAdReply: {
-        title: '¡Goku te ha invocado con su Ki!',
+        title: '¡Kurochitsuji te ha invocado con su Ki!',
         body: `𝕁𝕩𝕩𝕝𝕫𝕟-𝔹𝕠𝕥 • 𝐇𝐞𝐜𝐡𝐨 𝐩𝐨𝐫 𝕯𝖗𝖆𝖐𝖎𝖙𝖔`,
         thumbnailUrl: 'https://qu.ax/Tqmdw.jpg', // Puedes cambiar la imagen por una de Goku
         mediaType: 1,
