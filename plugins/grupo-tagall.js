@@ -14,7 +14,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
     throw false;
   }
 
-  const botname = 'Jxxlzn-Bot';
+  const botname = '𝖐𝖚𝖗𝖔𝖘𝖍𝖎𝖙𝖘𝖚𝖏𝖎-𝕭𝖔𝖙.';
   const creador = '𝕯𝖗𝖆𝖐𝖎𝖙𝖔';
   const mensaje = args.join` ` || '¡Reúnanse, guerreros Z!';
 
@@ -36,7 +36,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
     contextInfo: {
       externalAdReply: {
         title: '¡Kurochitsuji te ha invocado con su Ki!',
-        body: `𝕁𝕩𝕩𝕝𝕫𝕟-𝔹𝕠𝕥 • 𝐇𝐞𝐜𝐡𝐨 𝐩𝐨𝐫 𝕯𝖗𝖆𝖐𝖎𝖙𝖔`,
+        body: `𝖐𝖚𝖗𝖔𝖘𝖍𝖎𝖙𝖘𝖚𝖏𝖎-𝕭𝖔𝖙. • 𝐇𝐞𝐜𝐡𝐨 𝐩𝐨𝐫 𝕯𝖗𝖆𝖐𝖎𝖙𝖔`,
         thumbnailUrl: 'https://qu.ax/Tqmdw.jpg', // Puedes cambiar la imagen por una de Goku
         mediaType: 1,
         renderLargerThumbnail: true,
