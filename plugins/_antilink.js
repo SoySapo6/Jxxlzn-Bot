@@ -1,7 +1,7 @@
 let linkRegex = /chat\.whatsapp\.com\/([0-9A-Za-z]{20,24})/i;
 let linkRegex1 = /whatsapp\.com\/channel\/([0-9A-Za-z]{20,24})/i;
 
-export async function before(m, { conn, isOwner, isROwner, participants }) {
+export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner, participants }) {
   if (!m.isGroup) return;
   if (isAdmin || isOwner || m.fromMe || isROwner) return;
 
@@ -57,4 +57,4 @@ export async function before(m, { conn, isOwner, isROwner, participants }) {
   }
 
   return true;
-          }
+}
