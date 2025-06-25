@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let frases = [
         {
             personaje: ' 【 MENU PREM BOTS 】 ',
-            frase: 'Hola Soy Makima (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Makima\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Makima\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Félix.
+            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
 ',
             imagen: 'https://qu.ax/SGDrw.jpg',
             icono: 'https://qu.ax/uLhOy.jpg',
