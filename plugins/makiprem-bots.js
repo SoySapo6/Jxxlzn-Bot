@@ -5,7 +5,7 @@ import axios from 'axios';
 let handler = async (m, { conn, usedPrefix }) => {
     let frases = [
         {
-            personaje: '🩵 【 MENU PREM BOTS 】 🩵',
+            personaje: ' 【 MENU PREM BOTS 】 ',
             frase: 'Hola Soy Makima (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Makima\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Makima\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Félix.
 ',
             imagen: 'https://qu.ax/SGDrw.jpg',
