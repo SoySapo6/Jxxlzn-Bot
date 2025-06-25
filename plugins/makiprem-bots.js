@@ -6,43 +6,43 @@ let handler = async (m, { conn, usedPrefix }) => {
     let frases = [
         {
             personaje: ' 【 MENU PREM BOTS 】 ',
-            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
+            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Tanjiro\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
 ',
             imagen: 'https://qu.ax/SGDrw.jpg',
             icono: 'https://qu.ax/uLhOy.jpg',
             canal: 'https://whatsapp.com/channel/0029Vb5OYfu3bbV5DT6Biy12'
         },
         {
-            personaje: '🩵 【 MENU PREM BOTS 】 🩵',
-            frase: 'Hola Soy Makima (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Makima\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Makima\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Félix.
+            personaje: ' 【 MENU PREM BOTS 】 ',
+            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Tanjiro\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
 ',
             imagen: 'https://qu.ax/iUBoW.jpg',
             icono: 'https://qu.ax/XRsZZ.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029Vb5OYfu3bbV5DT6Biy12'
         },
         {
-            personaje: '🩵 【 MENU PREM BOTS 】 🩵',
-            frase: 'Hola Soy Makima (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Makima\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Makima\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Félix.
+            personaje: ' 【 MENU PREM BOTS 】 ',
+            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Tanjiro\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
 ',
             imagen: 'https://qu.ax/ldtsS.jpg',
             icono: 'https://qu.ax/HLqhy.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029Vb5OYfu3bbV5DT6Biy12'
         },
         {
-            personaje: '🩵 【 MENU PREM BOTS 】 🩵',
-            frase: 'Hola Soy Makima (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Makima\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Makima\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Félix.
+            personaje: ' 【 MENU PREM BOTS 】 ',
+            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Tanjiro\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
 ',
             imagen: 'https://qu.ax/R0v7T.jpg',
             icono: 'https://qu.ax/tv36s.jpg',
-            canal: 'https://whatsapp.com/channel/0029VakLbM76mYPPFL0IFI3P'
+            canal: 'https://whatsapp.com/channel/0029Vb5OYfu3bbV5DT6Biy12'
         },
         {
-            personaje: '🩵 【 MENU PREM BOTS 】 🩵',
-            frase: 'Hola Soy Makima (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Makima\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Makima\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Félix.
+            personaje: ' 【 MENU PREM BOTS 】 ',
+            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Tanjiro\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
 ',
             imagen: 'https://qu.ax/zEktf.png',
             icono: 'https://qu.ax/eYQPF.jpeg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029Vb5OYfu3bbV5DT6Biy12'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -180,28 +180,28 @@ let handler = async (m, { conn, usedPrefix }) => {
             canal: 'https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S'
         },
         {
-            personaje: '🩵 【 MENU PREM BOTS 】 🩵',
-            frase: 'Hola Soy Makima (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Makima\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Makima\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Félix.
+            personaje: ' 【 MENU PREM BOTS 】 ',
+            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Tanjiro\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
 ',
             imagen: 'https://files.catbox.moe/8ukw2l.jpg',
             icono: 'https://files.catbox.moe/g5bisg.jpg',
             canal: 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
         },
         {
-            personaje: '🩵 【 MENU PREM BOTS 】 🩵',
-            frase: 'Hola Soy Makima (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Makima\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Makima\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Félix.
+            personaje: ' 【 MENU PREM BOTS 】 ',
+            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Tanjiro\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
 ',
             imagen: 'https://files.catbox.moe/8ukw2l.jpg',
             icono: 'https://files.catbox.moe/g5bisg.jpg',
             canal: 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
         },
         {
-            personaje: '🩵 【 MENU PREM BOTS 】 🩵',
-            frase: 'Hola Soy Makima (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Makima\n┃Makima\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Makima\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Félix.
+            personaje: ' 【 MENU PREM BOTS 】 ',
+            frase: 'Hola Soy Tanjiro (Prem-Bot)\n\n╭━━━━━━━━━━\n┃Prem-Bots Tanjiro\n┃Tanjiro\n╰━━━━━━━━━━━━━\n\nAquí va a ir la lista de los comandos para Premium Bots de Tanjiro\n\nLa versión premium está en proceso de desarrollo.\n\n> Made with Dark Brxzzz.
 ',
             imagen: 'https://qu.ax/nmpSD.jpeg',
             icono: 'https://qu.ax/XPrwK.jpg',
-            canal: 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
+            canal: 'https://whatsapp.com/channel/0029Vb5OYfu3bbV5DT6Biy12'
         }
     ];
 
