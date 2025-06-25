@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/SGDrw.jpg',
             icono: 'https://qu.ax/uLhOy.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029Vb5OYfu3bbV5DT6Biy12'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
